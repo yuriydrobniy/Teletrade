@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html lang="ru">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+	<title>ТОРГОВЫЙ ЧАТ "ФИНАНСОВЫЙ ЭКСПЕРТ"</title>
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="style/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="style/bootstrap-modal-bs3patch.css">
+	<link rel="stylesheet" type="text/css" href="style/fonts.css">
+	<!--<link rel="stylesheet" type="text/css" href="style/reset.css">-->
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" type="text/css" href="style/jquery.arcticmodal-0.3.css">
+	<link rel="stylesheet" type="text/css" href="style/simple.css">
+	<script src="script/jquery-1.12.1.min.js"></script>
+	<script src="script/jquery.arcticmodal-0.3.min.js"></script>
+	<script src="script/bootstrap.min.js"></script>
+	<script src="script/bootstrap-modal.js"></script>
+	<script src="script/bootstrap-modalmanager.js"></script>
+	
+	<!--[if IE]>
+     <link rel="stylesheet" type="text/css" href="style/ie.css">
+	<![endif]-->
+	
+ <!--скрипт для старых браузеров IE-->
+ 
+ <!--[if lt IE 9]>
+     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+ <![endif]-->
+ 
+</head>
+<body>
+	
+	<header class="header">
+		<div class="container">	
+			<div class="row">
+				<div class="col-lg-10 col-md-10 col-sm-9 col-xs-6 heder-text-container">
+					<h1 class="h1">ТОРГОВЫЙ ЧАТ <span class="heder-name">«ФИНАНСОВЫЙ ЭКСПЕРТ»</span></h1>
+					<span class="heder-tagline">ВАШ ЗАРАБОТОК В МИРЕ ФИНАНСОВ</span>
+				</div>
+				<div class="col-lg-2 col-md-2 col-sm-3 col-xs-6">
+					<a class="heder-logo link" href="#"><img src="img/teletrade-logo.png" alt="teletrade" height="144" width="149"></a>
+				</div>
+			</div>
+		</div>
+	</header>
+	<section>
+		<div class="container">
+			<div class="row">
+				<article class="pre_box">
+					<div class="efficiency box box-indent"><span class="box-text">Оперативность</span></div>
+					<div class="mobility box box-indent"><span class="box-text">Мобильность</span></div>
+					<div class="quick_solutions box">Быстрые решения</div>
+					<div>Профессиональные трейдеры работают для вас:
+					 постоянно следят за рынком, просчитывают возможные риски, продумывают стратегию торговли.
+					Вы получаете лучшие торговые сигналы Forex и копируете прибыль на собственный счет
+					</div>
+				</article>
+				<aside class="row">
+					<form class="col-lg-2 col-md-2 col-sm-2 col-xs-12">
+						<div class="aside-form aside-form-theme">
+							<div class="aside-form-head text-innerShadow">Хотите получить пробный 
+							доступ к торговым сигналам?</div>
+							<div class="aside-form-container"><input class="aside-form-area" type="text" placeholder="Имя"></div>
+							<div class="aside-form-container"><input class="aside-form-area" type="email" placeholder="E-mail"></div>
+							<div class="aside-form-container container-indent"><input class="aside-form-area" type="tel" placeholder="Телефон"></div>
+						</div>
+						<div class="aside-form aside-form-footer aside-form-container"><input class="aside-form-button" type="submit" value="Хочу попробовать"></div>
+					</form>
+				</aside>
+			</div>
+		</div>
+	</section>
+	<footer>
+		<div class="wrap">
+			<div>+00 (000) 000-00-00</div>
+			<div>Политика
+			конфиденциальности</div>
+			<div><a href="#">www.fin.expert</a></div>
+			<div><a href="mailto:info@fin.expert">info@fin.expert</a></div>
+			<div><a href="#"></a></div>
+		</div>
+	</footer>
+	<div id="pact">
+    <p>Это соглашение.</p>
+    <label><input type="checkbox">Согласны?</input> </label>
+    <button id="Ok">Подтвердить</button>
+</div>
+<script>
+    $(document).ready(function () {
+        $('#Ok').click(function () {
+            if($('input').prop('checked')){
+                $('#pact').empty().append('<form><input type="text" value="Наша форма регистрации">' +
+                        '<input type="button" value="Ура"></form>');
+            }
+        });
+    })
+</script>
+
+</body>

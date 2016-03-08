@@ -1,0 +1,4 @@
+select::-ms-expand {
+  display: none;
+}
+.b-menu__link:hover {border-bottom: 3px solid red;padding-bottom: 23px;box-sizing: border-box;}

@@ -1,0 +1,67 @@
+
+/* main */
+body {background-color: #ffffff;}
+
+/*.link {text-decoration: none;color: white;}
+.textStyle-nexaBold {font-family: nexaBold, sans-serif;}
+.textStyle-nexaLight {font-family: nexaLight, sans-serif;}
+.b-headLine {height: 67px; background-color: #373737;width: 100%;position: absolute;}
+.b-headLine:after {content: '';position: absolute;height: 69px;background: #474747;left: 50%;right: 0;top: 67px;}
+.b-wrap {margin: 0 auto;position: relative;width: 940px;}
+.b-line {min-width: 940px;position: relative;}
+.hide {display: none;}*/
+
+.link {text-decoration: none;color: white;}
+
+.header {position: relative;}
+.header:before {content:''; width: 100%;height: 5px;background: #607d8b;position: absolute;}
+
+
+
+
+@media screen and (min-width: 1600px) {
+	.container {width: 1499px;}
+}
+
+/*при ширине экрана от 768px*/
+@media screen and (min-width: 768px) {
+	.heder-logo {float: right;}
+	h1.h1{font: 400 46px/46px 'Open Sans', sans-serif;}
+	span.heder-name{font: 700 46px/46px 'Open Sans', sans-serif;}
+	span.heder-tagline {font: 400 30px/30px 'Open Sans', sans-serif;}
+	div.aside-form {width: 357px;}
+	div.aside-form-container {padding-left: 52px;padding-top: 20px;padding: 20px 0 0 52px;}
+	input.aside-form-area {width: 254px;}
+	input.aside-form-button {width: 254px;}
+}
+
+/*default при ширине экрана до 768px*/ 
+
+.heder-text-container {text-align: center;}
+.h1 {font: 400 14px/20px 'Open Sans', sans-serif;color: #424242;letter-spacing: 1px;}
+.heder-name {font: 700 14px/20px 'Open Sans', sans-serif;color: #9ab26b;letter-spacing: 1px;}
+.heder-tagline {font: 400 12px/20px 'Open Sans', sans-serif;color: #848484;letter-spacing: 1px;}
+
+.heder-logo {float: right;}
+
+/*section block*/
+.section-block {padding-top: 67px;}
+
+/*form*/
+.aside-form {display: block;width: 100%;}
+	.aside-form-theme {height: 332px;background: #f6f6f6;box-sizing: border-box;border: 1px solid #cccccc;border-radius: 13px 0 0 0;}
+.aside-form-head {font-size: 16px;font-family: arial;text-transform: uppercase;padding: 34px 34px 13px 34px;text-align: center;font-weight: bold;}
+	.text-innerShadow {background-color: #000;color: transparent;text-shadow: -1px 2px 2px rgba(255,255,255,0.5);-webkit-background-clip: text;-moz-background-clip: text;background-clip: text;}
+.aside-form-container {padding: 20px 40px 20px 40px;}
+	.container-indent {padding-bottom: 44px;}
+.aside-form-area {width: 100%;height: 43px;background: #e6e6e6;box-sizing: border-box;border: 1px solid #cccccc;border-radius: 5px;border-left: 1px solid #fdfdfd;border-bottom: 1px solid #fdfdfd;border-top: 1px solid #969697;border-right: 1px solid #969697;box-shadow: inset -1px 1px 1px rgba(0,0,0,0.2);background: linear-gradient(to top, #d8d8d8, #f0f0f0);text-align: right;padding-right: 40px;font: 400 14px/20px 'Open Sans', sans-serif;}
+.aside-form-footer {background: #9BB26C;height: 78px;border-radius: 0 0 13px 13px;}
+.aside-form-button {width: 100%;height: 43px;background: #e6e6e6;box-sizing: border-box;border-left: 1px solid #e1e8b6;border-bottom: 1px solid #e1e8b6;border-top: 1px solid #1b1b1b;border-right: 1px solid #1b1b1b;border-radius: 10px;text-transform: uppercase;background: linear-gradient(to top, #202020, #6a6a6a);color: #d3d3d3;font-size: 16px;font-family: arial;font-weight: bold;text-shadow: -1px 1px 1px rgba(0,0,0,0.5);}
+
+/*content*/
+
+.box {width: 149px;height: 147px;background: url(../img/teletrade-sprite.png) -26px -25px no-repeat;position: relative;float: right;}
+.box-text {font: 700 16px/20px 'Open Sans', sans-serif;color: #ffa000;}
+.box-indent {margin-left: 73px;}
+
+.box-content {width: 593px; float:right;}
